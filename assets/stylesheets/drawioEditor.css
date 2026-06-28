@@ -67,3 +67,9 @@ span.drawioDiagram svg li {
     height: auto !important;
 }
 /* End tinymce fix */
+
+/* Hide the external edit button in DrawIO lightbox viewer */
+body > div[style*="position: fixed"][style*="z-index: 999"] > span[title="Edit"] {
+    display: none !important;
+}
+/* End hide external edit button */
